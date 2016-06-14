@@ -649,6 +649,7 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   margin-left: 20px;
   float: left;
   margin-top: 10px;
+  transition: all 1s ease;
 }
 
 .show .show_header ul li a {
@@ -660,6 +661,10 @@ h1, h2, h3, h4, h5, h6, p, span, a {
 .show .show_header ul li a img {
   width: 100%;
   height: 100%;
+}
+
+.show .show_header ul li:hover {
+  transform: scale(1.2, 1.2);
 }
 
 /*show_end*/
