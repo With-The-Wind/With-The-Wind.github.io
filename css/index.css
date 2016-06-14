@@ -94,10 +94,12 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   line-height: 0.6rem;
   font-size: 40px;
   position: absolute;
+  transform: rotate(90deg);
   bottom: 10%;
   left: 0;
   right: 0;
   margin: auto;
+  z-index: 15;
 }
 
 .mains .mains_enter span {
@@ -127,7 +129,8 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   height: 70px;
   float: left;
   line-height: 70px;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: bold;
   color: #BD08D6;
 }
 
@@ -139,7 +142,6 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   line-height: 70px;
   font-size: 24px;
   color: #BD08D6;
-  font-size: 16px;
 }
 
 .mains .mains_personal .tel {
@@ -150,7 +152,6 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   font-size: 24px;
   color: #BD08D6;
   padding-left: 25px;
-  font-size: 16px;
 }
 
 .mains .mains_personal .email {
@@ -161,7 +162,6 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   line-height: 70px;
   font-size: 24px;
   color: #BD08D6;
-  font-size: 16px;
 }
 
 .main {
@@ -207,18 +207,20 @@ h1, h2, h3, h4, h5, h6, p, span, a {
   display: inline-block;
   width: 25%;
   height: 100%;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
   box-sizing: border-box;
   padding-top: 25%;
   cursor: pointer;
-  color: #5F8C11;
+  color: #1F224D;
 }
 
 .main_h_nav .main_hn_include span a {
   display: inline-block;
   width: 100%;
   height: 100%;
+  color: #171736;
+  font-weight: bold;
 }
 
 /*main-end*/
