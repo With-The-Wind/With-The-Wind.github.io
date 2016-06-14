@@ -92,6 +92,16 @@ h1,h2,h3,h4,h5,h6,p,span,a{
     left:0;
     right:0;
     margin: auto;
+    span{
+      display: inline-block;
+      width: 100%;
+      height:100%;
+      a{
+        display: inline-block;
+        width: 100%;
+        height:100%;
+      }
+    }
   }
   .mains_personal{
     position: absolute;
@@ -642,6 +652,37 @@ h1,h2,h3,h4,h5,h6,p,span,a{
     h1{
       top:25px;
       opacity: 1;
+    }
+  }
+}
+.show{
+  .show_header{
+    width: 800px;
+    height:800px;
+    position: absolute;
+    top:10%;
+    left:0;
+    margin: auto;
+    right:0;
+    ul{
+      display: inline-block;
+      width: 100%;
+      li{
+        width: 180px;
+        height:180px;
+        margin-left: 20px;
+        float:left;
+        margin-top: 10px;
+        a{
+          display: inline-block;
+          width: 100%;
+          height:100%;
+          img{
+            width: 100%;
+            height:100%;
+          }
+        }
+      }
     }
   }
 }
