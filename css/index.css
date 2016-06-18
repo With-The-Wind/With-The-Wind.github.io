@@ -4,4 +4,20 @@
   list-style: none;
 }
 
+@keyframes messagemove {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 600px;
+  }
+}
+
+#page-top .intro .intro-body .container .row .intro-text h1 {
+  display: block;
+  height: 77px;
+  overflow: hidden;
+  animation: messagemove 3.2s ease both;
+}
+
 /*# sourceMappingURL=mapp/index.css.map */
